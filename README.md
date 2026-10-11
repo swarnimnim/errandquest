@@ -88,12 +88,3 @@ If you'd like to use a local LLM instead of the built-in fast parser:
 4. If Ollama is closed, ErrandQuest immediately and seamlessly falls back to the built-in engine without errors or freezing.
 
 ---
-
-## 🧪 Automated Acceptance Tests
-
-To re-run the full PRD acceptance test suite:
-```bash
-cd backend
-python test_suite.py
-```
-Outputs verification for all 8 test scenarios defined in the PRD.
